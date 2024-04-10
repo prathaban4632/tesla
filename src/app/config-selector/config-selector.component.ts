@@ -21,10 +21,10 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatSelectModule,
     MatCheckboxModule,
   ],
-  templateUrl: './CarConfig-selector.component.html',
-  styleUrl: './CarConfig-selector.component.scss'
+  templateUrl: './config-selector.component.html',
+  styleUrl: './config-selector.component.scss'
 })
-export class CarConfigSelectorComponent {
+export class ConfigSelectorComponent {
   options?: Options;
 
   constructor(
